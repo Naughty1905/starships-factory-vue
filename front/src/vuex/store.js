@@ -7,7 +7,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
     state: {
-        spaceships: []
+        ships: []
     },
     actions: {
         GET_SHIPS_FROM_API({commit}){

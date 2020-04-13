@@ -29,7 +29,7 @@
         },
         methods: {
             loadSpacehip() {
-                axios.get('https://swapi.co/api/starships/?format=json')
+                axios.get('http://localhost:3000/ships')
                     .then((response) => {
                         this.spaceship = response.data.results;
                     });

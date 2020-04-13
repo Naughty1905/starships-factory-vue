@@ -67,6 +67,7 @@
     .ships {
         max-width: 900px;
         margin: 0 auto;
+        color: white;
     }
 
     .ships-header {
@@ -82,11 +83,15 @@
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 30px;
+        color: white;
+
     }
     .page{
         padding: 8px;
         margin-right: 10px;
         border: 1px solid white;
+        color: white;
+
     }
     .page:hover{
         background: #72de26;

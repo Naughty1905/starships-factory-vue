@@ -1,13 +1,13 @@
 <template>
     <div class="ships-body-row">
         <div class="row row-class">
-{{row_data.starship_class}}
+{{row_data.fields.starship_class}}
         </div>
         <div class="row row-rating">
-{{row_data.hyperdrive_rating}}
+{{row_data.fields.hyperdrive_rating}}
         </div>
         <div class="row row-mglt">
-{{row_data.MGLT}}
+{{row_data.fields.MGLT}}
         </div>
         <div class="row row-pk">
 {{row_data.pk}}
@@ -34,11 +34,15 @@
     .ships-body-row{
         display: flex;
         justify-content: space-around;
+        color: white;
+
     }
     .row{
         text-align: left;
         padding: 8px 16px;
         flex-basis: 20%;
+        color: white;
+
     }
     .pay-button {
         position: relative;
