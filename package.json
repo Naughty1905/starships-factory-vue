@@ -539,7 +539,7 @@
     "pnp-webpack-plugin": "^1.6.4",
     "portfinder": "^1.0.25",
     "posix-character-classes": "^0.1.1",
-    "postcss": "^7.0.27",
+    "postcss": "^8.2.10",
     "postcss-calc": "^7.0.2",
     "postcss-colormin": "^4.0.3",
     "postcss-convert-values": "^4.0.1",
